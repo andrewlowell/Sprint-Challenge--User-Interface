@@ -236,6 +236,36 @@ header nav a:not(:last-child) {
     margin: 40px 0px;
 }
 
-
+/* Contact page */
+.contact-form {
+    margin-top: 80px;
+}
+.contact-form h2 {
+    font-size: 2em;
+}
+form {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+form input, form label, form textarea {
+    margin: 15px 0px;
+}
+form label {
+    font-size: 1.2em;
+}
+#submit-button {
+    width: 30%;
+}
+.frustration {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frustration input {
+    margin: 10px 20px;
+    width: 240px;
+}
 
 
