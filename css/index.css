@@ -268,4 +268,20 @@ form label {
     width: 240px;
 }
 
+/* Products page */
+.product-container {
+    margin: 60px 0px;
+}
+.product-flexbox {
 
+}
+.product-container h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+.product-img {
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
