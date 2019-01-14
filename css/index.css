@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,146 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+header img {
+    margin-right: 60px;
+}
+header nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+header nav a:not(:last-child) {
+    margin-right: 70px;
+}
+.jumbo-image {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* About page */
+
+.about-section {
+    margin-bottom: 20px;
+}
+.choice-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* Way to combine these? ### */
+    border-top: 1px dashed black;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-top: 40px;
+}
+.choice h3 {
+    margin-top: 15px;
+}
+.choice button {
+    margin: 20px 0px;
+    width: 33%;
+    border-radius: 8px;
+    background: none;
+    box-shadow: none;
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 1em;
+}
+.work-together {
+    margin: 40px 0px;
+}
+
+/* Contact page */
+.contact-form {
+    margin-top: 80px;
+}
+.contact-form h2 {
+    font-size: 2em;
+}
+form {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+form input, form label, form textarea {
+    margin: 15px 0px;
+}
+form label {
+    font-size: 1.2em;
+}
+#submit-button {
+    width: 30%;
+}
+.frustration {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frustration input {
+    margin: 10px 20px;
+    width: 240px;
+}
+
+/* Products page */
+.product-container {
+    margin: 60px 0px;
+}
+.product-flexbox {
+
+}
+.product-container h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+.product-img {
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
 }
